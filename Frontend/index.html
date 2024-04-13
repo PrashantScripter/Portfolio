@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/Frontend/images/profile-pic2.png">
+    <script src="/Frontend/script.js" defer></script>
+    <title>Prashant's Portfolio</title>
+</head>
+
+<body>
+    <!-- header start -->
+    <header id="header">
+        <div id="navbar">
+            <section class="logo">
+                <h3>PRASHNAT THAKUR</h3>
+            </section>
+            <section class="navlinks">
+                <ul>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </section>
+            <section class="hamburger">
+                <span class="line1"></span>
+                <span class="line2"></span>
+                <span class="line3"></span>
+            </section>
+        </div>
+
+        <div class="slidingnav">
+            <div class="slidingnavlinks">
+                <ul>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#aboutme">About Me</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main id="main">
+        <div id="leftmain">
+            <section class="profilepic">
+                <img src="./images/photo-removebg-preview.png" alt="">
+            </section>
+            <section class="information-and-social">
+                <div class="social">
+                    <a href="" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="" class="github"><i class="fa-brands fa-github"></i></a>
+                    <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+
+                <div class="infoAboutEdu">
+                    <p>Btech(CSE) 2ND year Student at MDU Rohtak, haryana <br>
+                        affiliated College.
+                    </p>
+                    <input type="button" value="Hire Me">
+                </div>
+            </section>
+        </div>
+
+        <div id="rightmain">
+            <section class="aboutme" id="aboutme">
+                <h2>About Me</h2>
+                <p>Hello! I'm <strong>Prashant Thakur</strong>, a passionate <strong>Full Stack Developer</strong> with
+                    a knack for building applications that solve real-world problems. With a rich blend of front-end and
+                    back-end skills, I craft seamless user experiences backed by robust server-side operations.</p>
+                <p>From the intricacies of user interface design to the precision of server-side scripting, I ensure
+                    every line of code I write contributes to a delightful and functional digital experience. Whether
+                    it's through crafting responsive layouts or engineering data-driven applications, my goal is to make
+                    the web more accessible and enjoyable for all.</p>
+                <p>When I'm not coding, you'll find me exploring the latest tech trends, contributing to open-source
+                    projects, or mentoring aspiring developers. Let's connect and create something incredible together!
+                </p>
+
+                <a href="/PRASHANT THAKUR.pdf" target="_blank" class="resume">Download CV</a>
+            </section>
+
+
+            <section class="skills" id="skills">
+                <h2>Skills</h2>
+                <div class="skill-img">
+                    <img src="https://codewithbiki.netlify.app/static/media/html.2ba4fabc69a89a8f71e6.png" alt="">
+                    <img src="https://codewithbiki.netlify.app/static/media/css.69a82c2d9e45c933a9cb.png" alt="">
+                    <img src="https://codewithbiki.netlify.app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png" alt="">
+                    <img src="https://codewithbiki.netlify.app/static/media/react.0cf951a69d8e58f83f9d.png" alt="">
+                    <img src="https://codewithbiki.netlify.app/static/media/node.952a9ea986dcfa5229ad.png" alt="">
+                    <img src="https://www.vectorlogo.zone/logos/expressjs/expressjs-icon.svg" alt="">
+                    <img src="https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" alt="">
+                </div>
+
+            </section>
+
+            <section id="Projects">
+                <h2>Projects</h2>
+                <div class="project-link">
+                    <div class="project1">
+                        <img src="/Frontend/images/Screenshot 2024-04-12 095805.png" alt="">
+                        <section class="projectlinkbuttons">
+                            <a href="">Live Demo</a>
+                            <a href="">Github</a>
+                        </section>
+                    </div>
+                    <div class="project2 project1">
+                        <img src="/Frontend/images/Screenshot 2024-04-12 100906.png" alt="">
+                        <section class="projectlinkbuttons">
+                            <a href="">Live Demo</a>
+                            <a href="">Github</a>
+                        </section>
+                    </div>
+                    <div class="project3 project1">
+                        <img src="/Frontend/images/Screenshot 2024-04-12 101421.png" alt="">
+                        <section class="projectlinkbuttons">
+                            <a href="">Live Demo</a>
+                            <a href="">Github</a>
+                        </section>
+                    </div>
+
+                    <div class="project4 project1">
+                        <img src="/Frontend/images/Screenshot 2024-04-12 132613.png" alt="">
+                        <section class="projectlinkbuttons">
+                            <a href="">Live Demo</a>
+                            <a href="">Github</a>
+                        </section>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!-- main ends -->
+
+    <!-- footer start -->
+    <footer id="footer">
+        <h2>Contact</h2>
+        <div id="contact">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" placeholder="Your First Name..">
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" placeholder="Your Last Name..">
+            <label for="country">Country</label>
+            <input type="text" id="country" placeholder="Your Country..">
+
+            <label for="subject"></label>
+            <textarea id="subject" cols="30" rows="10" placeholder="Write your message.."></textarea>
+            <button>Submit</button>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &#169; 2024 Prashant Thakur</p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="https://kit.fontawesome.com/eb7451dc8f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
